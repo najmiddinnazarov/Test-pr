@@ -23,7 +23,7 @@ const Sidebar = () => {
     <Wrapper>
       <div>
         <Profile>
-          <Avatar alt="Najmiddin" src="/static/images/avatar/1.jpg" />
+          <Avatar alt="Najmiddin" src="random.png" />
           <div>
             <h4>Najmiddin Nazarov</h4>
             <p>Google Company</p>
