@@ -1,12 +1,12 @@
-#language
+.language
   .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
-  padding: 10px !important;
+  padding: 10px;
 }
 
-#language .css-hfutr2-MuiSvgIcon-root-MuiSelect-icon {
-  color: #fff !important;
+.language .css-hfutr2-MuiSvgIcon-root-MuiSelect-icon {
+  color: #fff;
 }
 
-#language .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
-  border: 1px solid blue !important;
+.language .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border: 1px solid blue;
 }

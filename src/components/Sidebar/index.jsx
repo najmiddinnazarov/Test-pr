@@ -95,7 +95,7 @@ const Sidebar = () => {
           </MenuList>
         </Paper>
       </div>
-      <div id="language">
+      <div className="language">
         <FormControl
           sx={{ minWidth: 130 }}
           style={{
