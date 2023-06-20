@@ -1,8 +1,23 @@
 import React from "react";
 import { Line } from "react-chartjs-2";
-import { CategoryScale, Chart } from "chart.js";
+import {
+  Chart as ChartJS,
+  Title,
+  Tooltip,
+  Legend,
+  BarElement,
+  CategoryScale,
+  LinearScale,
+} from "chart.js";
 
-Chart.register(CategoryScale);
+ChartJS.register(
+  Title,
+  Tooltip,
+  Legend,
+  BarElement,
+  CategoryScale,
+  LinearScale
+);
 
 function LineChart({ chartData }) {
   return <Line data={chartData} />;
