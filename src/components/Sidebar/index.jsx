@@ -45,30 +45,32 @@ const Sidebar = () => {
           <span>+</span>
           <button>Reklama qo'shish</button>
         </AddAds>
-        <Paper sx={{ width: 230 }}>
-          <MenuList>
-            <MenuItem>
-              <ListItemIcon>
-                <Icons.Home />
-              </ListItemIcon>
-              <Typography variant="inherit">Asosiy</Typography>
-            </MenuItem>
-            <MenuItem>
-              <ListItemIcon>
-                <Icons.Help />
-              </ListItemIcon>
-              <Typography variant="inherit">Yordam</Typography>
-            </MenuItem>
-            <MenuItem>
-              <ListItemIcon>
-                <Icons.Exit />
-              </ListItemIcon>
-              <Typography variant="inherit" noWrap>
-                Akkountdan chiqish
-              </Typography>
-            </MenuItem>
-          </MenuList>
-        </Paper>
+        <div>
+          <Paper sx={{ width: 230 }}>
+            <MenuList>
+              <MenuItem>
+                <ListItemIcon>
+                  <Icons.Home />
+                </ListItemIcon>
+                <Typography variant="inherit">Asosiy</Typography>
+              </MenuItem>
+              <MenuItem>
+                <ListItemIcon>
+                  <Icons.Help />
+                </ListItemIcon>
+                <Typography variant="inherit">Yordam</Typography>
+              </MenuItem>
+              <MenuItem>
+                <ListItemIcon>
+                  <Icons.Exit />
+                </ListItemIcon>
+                <Typography variant="inherit" noWrap>
+                  Akkountdan chiqish
+                </Typography>
+              </MenuItem>
+            </MenuList>
+          </Paper>
+        </div>
       </div>
       <div id="language">
         <FormControl sx={{ minWidth: 130 }}>

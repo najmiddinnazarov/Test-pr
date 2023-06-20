@@ -7,6 +7,11 @@
   box-shadow: none !important;
 }
 
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
+  margin-bottom: 10px !important;
+  padding: 16px !important;
+}
+
 #language .css-4xtla9-MuiFormControl-root {
   width: 20% !important;
 }
@@ -26,9 +31,4 @@
 
 #language .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
   border: 1px solid blue !important;
-}
-
-.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
-  margin-bottom: 10px !important;
-  padding: 16px !important;
 }
